@@ -1,0 +1,63 @@
+/* General background styling for the login page */
+.login-bg {/* Light grey background for the entire login page */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center; /* Centers the form vertically */
+  justify-content: center; /* Centers the form horizontally */
+}
+
+/* Styling for the row containing the form to ensure it is centered properly */
+.login--row {
+  width: 100%; /* Ensures the row takes full width of the viewport */
+}
+
+/* Centering text elements within the form area */
+.login--row > div {
+  text-align: center;
+}
+
+/* Header styling */
+h1 {
+  color: #fff; /* Dark blue-grey color for the header */
+  font-weight: bold;
+  margin-bottom: 20px; /* Space below the header */
+}
+
+/* Form styling */
+form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  width: 100%; /* Full width of its container */
+  max-width: 500px; /* Maximum width of the form for larger screens */
+}
+
+/* Form inputs styling */
+.form-control {
+  border-radius: 4px;
+  border: 1px solid #ccc; /* Light grey border for inputs */
+}
+
+/* Label styling */
+.form-label {
+  color: #333; /* Dark grey text for better readability */
+}
+
+/* Button styling using Bootstrap variants */
+button {
+  background-color: #8bbcf0; /* Blue background for buttons */
+  color: #fff; /* White text */
+}
+
+button:hover {
+  background-color: #f0f4f8; /* Darker blue when hovered */
+}
+
+/* Additional styling for links as buttons */
+a button {
+  margin-top: 10px; /* Space between buttons */
+  width: 100%; /* Makes the button expand to full width of its container */
+}
+
+

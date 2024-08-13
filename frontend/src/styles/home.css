@@ -1,0 +1,53 @@
+body {
+  background-image: url(../assets/background_image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw; /* Removed quotes for proper CSS syntax */
+  height: 100vh; /* Removed quotes for proper CSS syntax */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0b0a0a; /* Dark gray for text, provides contrast against potentially bright background */
+  font-family: Arial, sans-serif; /* Consistent font with the CreateProduct component */
+}
+
+/* Adding a content container to center and style text or other elements */
+.content {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Light background to enhance text readability */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(228, 206, 206, 0.1);
+}
+
+h1,
+h2,
+h3 {
+  color: #fff; /* White text for the header */
+  background-color: #2c3e50; /* Dark blue-grey background for contrast */
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px; /* Space below the header */
+}
+
+button {
+  background-color: #b9cfe6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #b2c8e0;
+}

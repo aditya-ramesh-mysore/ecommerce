@@ -27,7 +27,7 @@ function Sidenav() {
     return (
       <Navbar
         style={{
-          backgroundColor: "#2C3E50", // Dark grey/blue shade
+          backgroundColor: "#39502c", // Dark grey/blue shade
           padding: "10px",
           margin: "0",
           width: "100%",  // Ensures the Navbar takes up the full viewport width
@@ -46,7 +46,7 @@ function Sidenav() {
             color: "#ECF0F1",
           }}
         >
-          Ecommerce Management System
+          Marketplace
         </Navbar.Brand>
 
         <Navbar.Collapse className="justify-content-end">
@@ -55,7 +55,7 @@ function Sidenav() {
               <FontAwesomeIcon
                 icon={faUser}
                 className="side-nav-icons"
-                style={{ cursor: "pointer", color: "#3498DB" }} // Blue for interactive icons
+                style={{ cursor: "pointer", color: "white" }} // Blue for interactive icons
               />
             </Link>
           </Navbar.Text>
@@ -63,7 +63,7 @@ function Sidenav() {
             <FontAwesomeIcon
               icon={faShoppingCart}
               className="side-nav-icons"
-              style={{ color: "#3498DB", cursor: "pointer" }} // Blue for interactive icons
+              style={{ color: "white", cursor: "pointer" }} // Blue for interactive icons
             />
           </Link>
         </Navbar.Collapse>

@@ -50,7 +50,7 @@ function Login() {
         <Col md={{ span: 8, offset: 2 }}>
           <div style={{ textAlign: "center" }}>
             <h1 style={{ fontweight: "bold" }}>
-              Ecommerce Management System
+              Marketplace
             </h1>
           </div>
           <br />
